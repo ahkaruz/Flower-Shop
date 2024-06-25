@@ -55,7 +55,7 @@ header img {
 }
 
 section {
-    margin: 100px 170px;
+    margin: 100px 170px 100px;
 
 }
 
@@ -78,6 +78,7 @@ section {
 }
 
 .featured-flowers {
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -86,8 +87,8 @@ section {
     width: 380px;
     height: 430px;
     align-content: end;
-    line-height: 0;
     text-align: center;
+    line-height: 0;
 }
 
 .featured-flowers-img-1 {
@@ -120,5 +121,28 @@ section {
     font-size: 20px;
     font-weight: 500;
     line-height: 35px;
-    text-decoration-line: underline;
+    text-decoration: underline;
+}
+
+.service-supports {
+    padding: 60px 0px 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-support-container {
+    text-align: center;
+}
+
+.service-support-img {
+    width: 70px;
+}
+
+.service-support-summary {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0px;
 }
