@@ -36,7 +36,6 @@ header img {
 }
 
 .btn-primary {
-    margin-top: 25px;
     padding: 15px 25px;
     display: flex;
     border: none;
@@ -88,20 +87,18 @@ header img {
     align-content: end;
     text-align: center;
     line-height: 0;
+    border-radius: 300px 300px 8px 8px;
 }
 
 .featured-flowers-img-1 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
 .featured-flowers-img-2 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .featured-flowers-img-3 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
@@ -186,3 +183,52 @@ header img {
 .banner-sell-img {
     width: 250px;
 }
+
+.section-3 {
+    margin: 100px 170px 100px;
+}
+
+.photos-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos>img {
+    width: 270px;
+    border-radius: 8px;
+}
+
+.section-4 {
+    margin: 100px 170px 100px;
+}
+
+.latest-deal-banner {
+    padding: 80px 0px;
+    background-image: url(../img/Rectangle\ 9.png);
+    border-radius: 8px;
+}
+
+.subscriber-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input {
+    width: 500px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.input:focus {
+    outline: none;
+}
+
