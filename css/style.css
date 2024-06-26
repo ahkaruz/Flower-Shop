@@ -54,9 +54,8 @@ header img {
     background-color: #C1435E;
 }
 
-section {
+.section-1 {
     margin: 100px 170px 100px;
-
 }
 
 .section-title {
@@ -145,4 +144,44 @@ section {
     font-size: 20px;
     font-weight: 500;
     line-height: 0px;
+}
+
+.section-2 {
+    margin: 100px 0px 100px;
+    padding: 70px 300px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-sell-container {
+    text-align: center;
+}
+
+.banner-sell-title {
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.banner-sell-title>span {
+    color: #E55473;
+}
+
+.banner-sell-summary {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 500px;
+    margin: 0px auto 25px;
+}
+
+.banner-sell-container>button {
+    margin: auto;
+}
+
+.banner-sell-img {
+    width: 250px;
 }
