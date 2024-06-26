@@ -232,3 +232,33 @@ header img {
     outline: none;
 }
 
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.title {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title>span {
+    color: #FFF;
+}
+
+.short-description {
+    margin: 0px auto 0px;
+    width: 500px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.copyright {
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+    font-weight: 400;
+}
