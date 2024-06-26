@@ -163,6 +163,7 @@ header img {
     color: #272727;
     font-size: 32px;
     font-weight: 800;
+    line-height: 20px;
 }
 
 .banner-sell-title>span {
@@ -171,10 +172,10 @@ header img {
 
 .banner-sell-summary {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    width: 500px;
+    width: 520px;
     margin: 0px auto 25px;
 }
 
